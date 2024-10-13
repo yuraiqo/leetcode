@@ -5,7 +5,7 @@ class ListNode:
 
 
 class Solution:
-    def reverseList(self, head: 'ListNode' | None) -> 'ListNode' | None:
+    def reverseList(self, head: ListNode | None) -> ListNode | None:
         if not head:
             return
         new_head = head
